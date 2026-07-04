@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>gerador de senhas</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+
+        <div class="title">
+
+            <h1>Gerador de senhas 🔑</h1>
+            <h2>bem vindo, escolha umas das 3 opções para gerar a senha</h2>
+
+        </div>
+
+        <form action="" method="POST">
+
+            <h1>escolha um tipo de senha: </h1>
+
+            <button name="botao" type:"submit" value="simples">simples</button>
+
+            <button name="botao" type:"button" value="medio">medio</button>
+
+            <button name="botao" type:"button" value="forte">forte</button>
+
+        </form>
+
+        {% if post == True %}
+          <div class="container">
+
+               <h2>senha gerada: </h2>
+               <h1 name="senha" class="senha" id="senha">{{ senha }}</h1>
+               <button onclick="copiarTexto()" class="copiar">copiar</button>
+
+          </div>
+
+        {% endif %}
+
+        <script>
+
+            function copiarTexto() {
+                const texto = document.getElementById("senha").innerText
+                navigator.clipboard.writeText(texto)
+            }
+
+        </script>
+
+    </body>
+
+<html>
