@@ -22,27 +22,39 @@ Um gerador de senhas em flask, ele tem 3 niveis de senhas:
 
 ● javascript 
 
-### como executar
+## como executar o projeto
 
-1. entre na pasta do projeto
+### 1. clone o repositório
 
 ```bash
+git clone https://github.com/jguilherme-devx/Password-generator-flask.git
+```
 
+### 2. entre na pasta do projeto
+
+```bash
 cd password-projeto
-
 ```
 
-2. depois execute o main.py
+### 3. instale as dependêcias
 
 ```bash
-
-python main.py
-
+pip install -r requirements.txt
 ```
 
-3. entre no navegador em http://127.0.0.1:5000
+### 4. execute a aplicação
 
-## Exemplo de como fica no navegador
+```bash
+python main.py
+```
+
+### 5. abra no navegador
+
+```
+http://127.0.0.1:5000
+```
+
+## Demonstração
 
 
-![Exemplo do meu projeto rodando](static/imgs/Site.jpg)
+![Demonstração](static/imgs/Site.jpg)
