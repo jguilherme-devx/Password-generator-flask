@@ -45,4 +45,4 @@ python main.py
 ## Exemplo de como fica no navegador
 
 
-![Exemplo do meu projeto rodando](static/imgs/site.jpg)
+![Exemplo do meu projeto rodando](static/imgs/Site.jpg)
