@@ -42,4 +42,7 @@ python main.py
 
 3. entre no navegador em http://127.0.0.1:5000
 
+## Exemplo de como fica no navegador
+
+
 ![Exemplo do meu projeto rodando](static/imgs/site.jpg)
