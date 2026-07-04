@@ -57,4 +57,4 @@ http://127.0.0.1:5000
 ## Demonstração
 
 
-![Demonstração](static/imgs/Site.jpg)
+![Demonstração](static/imgs/site.jpg)
