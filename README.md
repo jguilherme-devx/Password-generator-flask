@@ -1,6 +1,7 @@
 # Password-generator-in-flask
 
 Um gerador de senhas em flask, ele tem 3 niveis de senhas:
+
  ● simples
  
  ● medio
