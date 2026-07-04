@@ -2,16 +2,23 @@
 
 Um gerador de senhas em flask, ele tem 3 niveis de senhas:
  ● simples
+ 
  ● medio
+ 
  ● forte
 
 ## tecnologias
 
 ● Python
+
 ● Flask
+
 ● CSS
+
 ● HTML
+
 ● jinja2
+
 ● javascript 
 
 ### como executar
