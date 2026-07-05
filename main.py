@@ -42,7 +42,6 @@ def submit():
     else:
         senha = forte()
 
-    print(f"senha: { senha }")
     return render_template('index.html', post=True, senha=senha)
 
 
