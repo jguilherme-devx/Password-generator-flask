@@ -33,7 +33,7 @@ git clone https://github.com/jguilherme-devx/Password-generator-flask.git
 ### 2. entre na pasta do projeto
 
 ```bash
-cd password-projeto
+cd Password-generator-flask
 ```
 
 ### 3. instale as dependêcias
